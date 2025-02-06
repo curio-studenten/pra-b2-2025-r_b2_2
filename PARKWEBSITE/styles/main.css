@@ -194,6 +194,22 @@ footer{
   ##Screen = B/w 768px to 1024px
 */
 
+/* is test
+-----
+.row {
+  display: flex;
+  flex-direction: row; 
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .row {
+      flex-direction: column; 
+  }
+}
+ ----- */
+
 @media (max-width: 1024px) {
   .logo{
     margin: 0 auto;
@@ -201,6 +217,7 @@ footer{
   }
 
   .row{
+    display: flex;
     flex-direction: column;
   }
   .sidy-by-side{
@@ -208,6 +225,7 @@ footer{
     align-items: center;
   }
 }
+
 
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
