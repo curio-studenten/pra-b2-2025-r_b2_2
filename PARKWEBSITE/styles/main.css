@@ -214,6 +214,22 @@ h2 {
     1px 1px 0 #FCFCFC;
 }
 
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cart-table th, .cart-table td {
+  padding: 3px;
+  text-align: left;
+}
+
+.incl-btw{
+  margin-top:  -12px;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -258,10 +274,7 @@ h2 {
     width: 256px;
   }
 
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .sidy-by-side {
     flex-direction: column;
@@ -338,3 +351,4 @@ h2 {
     opacity: 1;
   }
 }
+
