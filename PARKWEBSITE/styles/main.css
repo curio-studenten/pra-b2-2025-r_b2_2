@@ -217,6 +217,25 @@ footer{
   margin-top:  -12px;
 }
 
+.product1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mok-image {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.product-info {
+  max-width: 400px;
+  margin-top: -270px;
+}
+.product-info, p{
+  margin-bottom: -8px;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
