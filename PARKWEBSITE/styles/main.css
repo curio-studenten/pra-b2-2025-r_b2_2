@@ -158,6 +158,10 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: center; /* Centreert de items */
+  gap: 20px; /* Ruimte tussen de afbeeldingen */
+  flex-wrap: wrap; /* Laat ze naar een nieuwe regel gaan op kleine schermen */
 }
 
 .description{
