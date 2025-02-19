@@ -236,6 +236,7 @@ footer{
 
 .product-info {
   max-width: 400px;
+  padding-bottom: 300px;
   /* margin-top: -270px; */
 }
 .product-info, p{
