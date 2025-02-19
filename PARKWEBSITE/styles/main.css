@@ -213,12 +213,14 @@ footer{
 }
 
 .cart-table th, .cart-table td {
-  padding: 3px;
+  padding: 5px;
   text-align: left;
 }
 
+
+
 .incl-btw{
-  margin-top:  -12px;
+  margin-top:  10px;
 }
 
 .product1 {
